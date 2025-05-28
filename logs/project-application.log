@@ -1,0 +1,3 @@
+2025-05-28 16:01:14.353 [Test worker] INFO  c.p.p.ProjektRestControllerIntegrationTest.logStarting(53) - Starting ProjektRestControllerIntegrationTest using Java 23.0.2 with PID 7176 (started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-05-28 16:01:14.355 [Test worker] INFO  c.p.p.ProjektRestControllerIntegrationTest.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-05-28 16:01:28.769 [Test worker] INFO  c.p.p.ProjektRestControllerIntegrationTest.logStarted(59) - Started ProjektRestControllerIntegrationTest in 15.134 seconds (process running for 17.44)
