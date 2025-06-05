@@ -1,78 +1,61 @@
 package com.project.controller;
-import java.net.URI;
 import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
+import org.apache.logging.log4j.util.Strings;
 import org.springframework.data.domain.Pageable;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+import org.springframework.web.client.HttpStatusCodeException;
 import com.project.model.Projekt;
 import com.project.service.ProjektService;
-import io.swagger.v3.oas.annotations.tags.Tag;
-// dzięki adnotacji @RestController klasa jest traktowana jako zarządzany
-@RestController // przez kontener Springa REST-owy kontroler obsługujący sieciowe żądania
-@RequestMapping("/api") // adnotacja @RequestMapping umieszczona w tym miejscu pozwala definiować
-// cześć wspólną adresu, wstawianą przed wszystkimi poniższymi ścieżkami
-@Tag(name = "Projekt") // zmiana nazwy, uwzględniania m.in. przy generowaniu specyfikacji za pomocą OpenAPI
+@Controller
 public class ProjektRestController {
-    private ProjektService projektService; //serwis jest automatycznie wstrzykiwany poprzez konstruktor
-    @Autowired
+    private ProjektService projektService;
+    //@Autowired – przy jednym konstruktorze wstrzykiwanie jest zadaniem domyślnym, adnotacji nie jest potrzebna
     public ProjektRestController(ProjektService projektService) {
         this.projektService = projektService;
     }
-    // PRZED KAŻDĄ Z PONIŻSZYCH METOD JEST UMIESZCZONA ADNOTACJA (@GetMapping, PostMapping, ... ), KTÓRA OKREŚLA
-// RODZAJ METODY HTTP, A TAKŻE ADRES I PARAMETRY ŻĄDANIA
-//Przykład żądania wywołującego metodę: GET http://localhost:8080/api/projekty/1
-    @GetMapping("/projekty/{projektId}")
-    public ResponseEntity<Projekt> getProjekt(@PathVariable("projektId") Integer projektId){// @PathVariable oznacza,
-        return ResponseEntity.of(projektService.getProjekt(projektId)); // że wartość parametru
-    } // przekazywana jest w ścieżce
-    // @Valid włącza automatyczną walidację na podstawie adnotacji zawartych
-// w modelu np. NotNull, Size, NotEmpty itd. (z jakarta.validation.constraints.*)
-    @PostMapping(path = "/projekty")
-    public ResponseEntity<Void> createProjekt(@Valid @RequestBody Projekt projekt) {// @RequestBody oznacza, że dane
-// projektu (w formacie JSON) są
-        Projekt createdProjekt = projektService.setProjekt(projekt); // przekazywane w ciele żądania
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest() // link wskazujący utworzony projekt
-                .path("/{projektId}").buildAndExpand(createdProjekt.getProjektId()).toUri();
-        return ResponseEntity.created(location).build(); // zwracany jest kod odpowiedzi 201 - Created
-    } // z linkiem location w nagłówku
-    @PutMapping("/projekty/{projektId}")
-    public ResponseEntity<Void> updateProjekt(@Valid @RequestBody Projekt projekt,
-                                              @PathVariable("projektId") Integer projektId) {
-        return projektService.getProjekt(projektId)
-                .map(p -> {
-                    projektService.setProjekt(projekt);
-                    return new ResponseEntity<Void>(HttpStatus.OK); // 200 (można też zwracać 204 - No content)
-                })
-                .orElseGet(() -> ResponseEntity.notFound().build()); // 404 - Not found
+    @GetMapping("/projektList") //np. http://localhost:8081/projektList?page=0&size=10&sort=dataCzasModyfikacji,desc
+    public String projektList(Model model, Pageable pageable) {
+        model.addAttribute("projekty", projektService.getProjekty(pageable).getContent());
+        return "projektList";
     }
-    @DeleteMapping("/projekty/{projektId}")
-    public ResponseEntity<Void> deleteProjekt(@PathVariable("projektId") Integer projektId) {
-        return projektService.getProjekt(projektId).map(p -> {
-            projektService.deleteProjekt(projektId);
-            return new ResponseEntity<Void>(HttpStatus.OK); // 200
-        }).orElseGet(() -> ResponseEntity.notFound().build()); // 404 - Not found
+    @GetMapping("/projektEdit")
+    public String projektEdit(@RequestParam(name="projektId", required = false) Integer projektId, Model model){
+        if(projektId != null) {
+            model.addAttribute("projekt", projektService.getProjekt(projektId).get());
+        }else {
+            Projekt projekt = new Projekt();
+            model.addAttribute("projekt", projekt);
+        }
+        return "projektEdit";
     }
-    //Przykład żądania wywołującego metodę: http://localhost:8080/api/projekty?page=0&size=10&sort=nazwa,desc
-    @GetMapping(value = "/projekty")
-    public Page<Projekt> getProjekty(Pageable pageable) { // @RequestHeader HttpHeaders headers – jeżeli potrzebny
-        return projektService.getProjekty(pageable); // byłby nagłówek, wystarczy dodać drugą zmienną z adnotacją
+    @PostMapping(path = "/projektEdit")
+    public String projektEditSave(@ModelAttribute @Valid Projekt projekt, BindingResult bindingResult) {
+//parametr BindingResult powinien wystąpić zaraz za parametrem opatrzonym adnotacją @Valid
+        if (bindingResult.hasErrors()) {
+            return "projektEdit";
+        }
+        try {
+            projekt = projektService.setProjekt(projekt);
+        } catch (HttpStatusCodeException e) {
+            bindingResult.rejectValue(Strings.EMPTY, String.valueOf(e.getStatusCode().value()),
+                    e.getStatusCode().toString());
+            return "projektEdit";
+        }
+        return "redirect:/projektList";
     }
-    // Przykład żądania wywołującego metodę: GET http://localhost:8080/api/projekty?nazwa=webowa
-// Metoda zostanie wywołana tylko, gdy w żądaniu będzie przesyłana wartość parametru nazwa.
-    @GetMapping(value = "/projekty", params="nazwa")
-    Page<Projekt> getProjektyByNazwa(@RequestParam(name="nazwa") String nazwa, Pageable pageable) {
-        return projektService.searchByNazwa(nazwa, pageable);
+    @PostMapping(params="cancel", path = "/projektEdit")
+    public String projektEditCancel() {
+        return "redirect:/projektList";
+    }
+    @PostMapping(params="delete", path = "/projektEdit")
+    public String projektEditDelete(@ModelAttribute Projekt projekt) {
+        projektService.deleteProjekt(projekt.getProjektId());
+        return "redirect:/projektList";
     }
 }

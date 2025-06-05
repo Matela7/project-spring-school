@@ -1,82 +1,124 @@
 package com.project.service;
-
+import java.net.URI;
 import java.util.Optional;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
+import org.springframework.web.client.RestClient;
+import com.project.exception.HttpException;
 import com.project.model.Projekt;
-import com.project.repository.ProjektRepository;
-import com.project.model.Zadanie;
-import com.project.repository.ZadanieRepository;
-
-/**
- * Implementacja serwisu obsługującego operacje na projektach
- *
- * Adnotacja @Service oznacza, że klasa będzie zarządzana przez kontener Springa,
- * pełni taką samą rolę co adnotacja @Component z dodatkowym wskazaniem
- * na klasę warstwy logiki biznesowej.
- */
 @Service
 public class ProjektServiceImpl implements ProjektService {
-
-    private ProjektRepository projektRepository;
-    private ZadanieRepository zadanieRepository;
-
-    /**
-     * Konstruktor z wstrzykiwaniem zależności.
-     * Adnotacja @Autowired oznacza, że Spring zajmie się wstrzyknięciem instancji
-     * klasy ProjektRepository do zmiennej projektRepository oraz ZadanieRepository
-     * do zmiennej zadanieRepository (wcześniej oczywiście też sam utworzy obiekty tych klas).
-     * W najnowszych wersjach Springa adnotacja przed konstruktorem może być pomijana,
-     * ponieważ wstrzykiwanie przez konstruktor jest działaniem domyślnym.
-     */
-    @Autowired
-    public ProjektServiceImpl(ProjektRepository projektRepository, ZadanieRepository zadanieRepository) {
-        this.projektRepository = projektRepository;
-        this.zadanieRepository = zadanieRepository;
+    private static final Logger logger = LoggerFactory.getLogger(ProjektServiceImpl.class);
+    private final RestClient restClient; // obiekt wstrzykiwany poprzez konstruktor, dzięki adnotacjom
+    // @Configuration i @Bean zawartym w klasie SecurityConfig
+// Spring utworzy wcześniej obiekt, a adnotacja @Autowired
+// tej klasy wskaże element docelowy wstrzykiwania
+// (adnotacja @Autowired może być pomijana jeżeli w klasie
+// jest tylko jeden konstruktor)
+    public ProjektServiceImpl(RestClient restClient) {
+        this.restClient = restClient;
     }
-
+    private String getResourcePath() {
+        return "/api/projekty";
+    }
+    private String getResourcePath(Integer id) {
+        return String.format("%s/%d", getResourcePath(), id);
+    }
     @Override
     public Optional<Projekt> getProjekt(Integer projektId) {
-        return projektRepository.findById(projektId);
+        String resourcePath = getResourcePath(projektId);
+        logger.info("REQUEST -> GET {}", resourcePath);
+        Projekt projekt = restClient
+                .get()
+                .uri(resourcePath) //można też używać .uri("/api/projekty/{projektId}", projektId)
+                .retrieve()
+                .onStatus(HttpStatusCode::isError, (req, res) -> {
+                    throw new HttpException(res.getStatusCode(), res.getHeaders());
+                })
+                .body(Projekt.class);
+        return Optional.ofNullable(projekt);
     }
-
     @Override
-    @Transactional
     public Projekt setProjekt(Projekt projekt) {
-        // Zapisuje projekt do bazy danych
-        return projektRepository.save(projekt);
-    }
-
-    /**
-     * Metoda do usuwania projektu wraz z powiązanymi zadaniami.
-     * Adnotacja @Transactional zapewnia, że wszystkie operacje bazodanowe
-     * wykonają się w ramach jednej transakcji. Jeśli którakolwiek operacja
-     * nie powiedzie się, wszystkie zmiany zostaną wycofane.
-     */
-    @Override
-    @Transactional
-    public void deleteProjekt(Integer projektId) {
-        // Najpierw usuwamy wszystkie zadania powiązane z projektem
-        for (Zadanie zadanie : zadanieRepository.findZadaniaProjektu(projektId)) {
-            zadanieRepository.delete(zadanie);
+        if (projekt.getProjektId() != null) { // modyfikacja istniejącego projektu
+            String resourcePath = getResourcePath(projekt.getProjektId());
+            logger.info("REQUEST -> PUT {}", resourcePath);
+            restClient
+                    .put()
+                    .uri(resourcePath)
+                    .accept(MediaType.APPLICATION_JSON)
+                    .body(projekt)
+                    .retrieve()
+                    .onStatus(HttpStatusCode::isError, (req, res) -> {
+                        throw new HttpException(res.getStatusCode(), res.getHeaders());
+                    })
+                    .toBodilessEntity();
+            return projekt;
+        } else { //utworzenie nowego projektu
+// po dodaniu projektu zwracany jest w nagłówku Location - link do utworzonego zasobu
+            String resourcePath = getResourcePath();
+            logger.info("REQUEST -> POST {}", resourcePath);
+            ResponseEntity<Void> response = restClient
+                    .post()
+                    .uri(resourcePath)
+                    .accept(MediaType.APPLICATION_JSON)
+                    .body(projekt)
+                    .retrieve()
+                    .onStatus(HttpStatusCode::isError, (req, res) -> {
+                        throw new HttpException(res.getStatusCode(), res.getHeaders());
+                    })
+                    .toBodilessEntity();
+            URI location = response.getHeaders().getLocation();
+            logger.info("REQUEST (location) -> GET {}", location);
+            return restClient
+                    .get()
+                    .uri(location)
+                    .retrieve()
+                    .onStatus(HttpStatusCode::isError, (req, res) -> {
+                        throw new HttpException(res.getStatusCode(), res.getHeaders());
+                    })
+                    .body(Projekt.class);
         }
-        // Następnie usuwamy sam projekt
-        projektRepository.deleteById(projektId);
     }
-
+    @Override
+    public void deleteProjekt(Integer projektId) {
+        String resourcePath = getResourcePath(projektId);
+        logger.info("REQUEST -> DELETE {}", resourcePath);
+        restClient
+                .delete()
+                .uri(resourcePath)
+                .retrieve()
+                .onStatus(HttpStatusCode::isError, (req, res) -> {
+                    throw new HttpException(res.getStatusCode(), res.getHeaders());
+                })
+                .toBodilessEntity();
+    }
     @Override
     public Page<Projekt> getProjekty(Pageable pageable) {
-        // Zwraca stronę z projektami
-        return projektRepository.findAll(pageable);
+        URI uri = ServiceUtil.getURI(getResourcePath(), pageable);
+        logger.info("REQUEST -> GET {}", uri);
+        return getPage(uri);
     }
-
     @Override
     public Page<Projekt> searchByNazwa(String nazwa, Pageable pageable) {
-        // Wyszukuje projekty zawierające podaną frazę w nazwie
-        return projektRepository.findByNazwaContainingIgnoreCase(nazwa, pageable);
+        URI uri = ServiceUtil
+                .getUriComponent(getResourcePath(), pageable)
+                .queryParam("nazwa", nazwa)
+                .build().toUri();
+        logger.info("REQUEST -> GET {}", uri);
+        return getPage(uri);
+    }
+    private Page<Projekt> getPage(URI uri) {
+        return restClient.get()
+                .uri(uri.toString())
+                .retrieve()
+                .body(new ParameterizedTypeReference<RestResponsePage<Projekt>>(){});
     }
 }
