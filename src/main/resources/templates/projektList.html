@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Lista projektów</title>
+    <style>table{border-collapse:collapse;width:100%}th,td{border:1px solid #aaa;padding:6px}</style>
+</head>
+<body>
+<h1>Lista projektów</h1>
+
+<p><a th:href="@{/projektEdit}">Dodaj projekt</a></p>
+
+<table>
+    <thead>
+    <tr>
+        <th>Id</th><th>Nazwa</th><th>Opis</th><th>Data oddania</th><th>Akcje</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="p : ${projekty}">
+        <td th:text="${p.projektId}"></td>
+        <td th:text="${p.nazwa}"></td>
+        <td th:text="${p.opis ?: '-'}"></td>
+        <td th:text="${p.dataOddania}"></td>
+        <td>
+            <a th:href="@{/projektEdit(projektId=${p.projektId})}">Edytuj</a>
+            <form th:action="@{/projektEdit}" method="post" style="display:inline"
+                  onsubmit="return confirm('Na pewno?')">
+                <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+                <input type="hidden" name="projektId" th:value="${p.projektId}" />
+                <button type="submit" name="delete" value="1">Usuń</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

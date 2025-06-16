@@ -1,61 +1,80 @@
 package com.project.controller;
-import jakarta.validation.Valid;
-import org.apache.logging.log4j.util.Strings;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.client.HttpStatusCodeException;
+
 import com.project.model.Projekt;
 import com.project.service.ProjektService;
-@Controller
+import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import java.net.URI;
+import java.util.Optional;
+
+@RestController
+@RequestMapping("/api")
 public class ProjektRestController {
-    private ProjektService projektService;
-    //@Autowired – przy jednym konstruktorze wstrzykiwanie jest zadaniem domyślnym, adnotacji nie jest potrzebna
+
+    private final ProjektService projektService;
+
+    @Autowired
     public ProjektRestController(ProjektService projektService) {
         this.projektService = projektService;
     }
-    @GetMapping("/projektList") //np. http://localhost:8081/projektList?page=0&size=10&sort=dataCzasModyfikacji,desc
-    public String projektList(Model model, Pageable pageable) {
-        model.addAttribute("projekty", projektService.getProjekty(pageable).getContent());
-        return "projektList";
+
+    @GetMapping("/projekty")
+    public Page<Projekt> getProjekty(Pageable pageable) {
+        return projektService.getProjekty(pageable);
     }
-    @GetMapping("/projektEdit")
-    public String projektEdit(@RequestParam(name="projektId", required = false) Integer projektId, Model model){
-        if(projektId != null) {
-            model.addAttribute("projekt", projektService.getProjekt(projektId).get());
-        }else {
-            Projekt projekt = new Projekt();
-            model.addAttribute("projekt", projekt);
+
+    @GetMapping("/projekty/{projektId}")
+    public ResponseEntity<Projekt> getProjekt(@PathVariable Integer projektId) {
+        Optional<Projekt> projekt = projektService.getProjekt(projektId);
+        return projekt.map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    @PostMapping("/projekty")
+    public ResponseEntity<Void> createProjekt(@Valid @RequestBody Projekt projekt) {
+        Projekt createdProjekt = projektService.setProjekt(projekt);
+        URI location = ServletUriComponentsBuilder
+                .fromCurrentRequest()
+                .path("/{projektId}")
+                .buildAndExpand(createdProjekt.getProjektId())
+                .toUri();
+        return ResponseEntity.created(location).build();
+    }
+
+    @PutMapping("/projekty/{projektId}")
+    public ResponseEntity<Projekt> updateProjekt(
+            @PathVariable Integer projektId,
+            @Valid @RequestBody Projekt projekt) {
+        Optional<Projekt> existingProjekt = projektService.getProjekt(projektId);
+        if (existingProjekt.isEmpty()) {
+            return ResponseEntity.notFound().build();
         }
-        return "projektEdit";
+
+        projekt.setProjektId(projektId);
+        projektService.setProjekt(projekt);
+        return ResponseEntity.ok().build();
     }
-    @PostMapping(path = "/projektEdit")
-    public String projektEditSave(@ModelAttribute @Valid Projekt projekt, BindingResult bindingResult) {
-//parametr BindingResult powinien wystąpić zaraz za parametrem opatrzonym adnotacją @Valid
-        if (bindingResult.hasErrors()) {
-            return "projektEdit";
+
+    @DeleteMapping("/projekty/{projektId}")
+    public ResponseEntity<Void> deleteProjekt(@PathVariable Integer projektId) {
+        Optional<Projekt> projekt = projektService.getProjekt(projektId);
+        if (projekt.isEmpty()) {
+            return ResponseEntity.notFound().build();
         }
-        try {
-            projekt = projektService.setProjekt(projekt);
-        } catch (HttpStatusCodeException e) {
-            bindingResult.rejectValue(Strings.EMPTY, String.valueOf(e.getStatusCode().value()),
-                    e.getStatusCode().toString());
-            return "projektEdit";
-        }
-        return "redirect:/projektList";
+
+        projektService.deleteProjekt(projektId);
+        return ResponseEntity.noContent().build();
     }
-    @PostMapping(params="cancel", path = "/projektEdit")
-    public String projektEditCancel() {
-        return "redirect:/projektList";
-    }
-    @PostMapping(params="delete", path = "/projektEdit")
-    public String projektEditDelete(@ModelAttribute Projekt projekt) {
-        projektService.deleteProjekt(projekt.getProjektId());
-        return "redirect:/projektList";
+
+    @GetMapping("/projekty/search")
+    public Page<Projekt> searchProjekty(@RequestParam String nazwa, Pageable pageable) {
+        return projektService.searchByNazwa(nazwa, pageable);
     }
 }

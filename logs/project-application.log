@@ -1,11 +1,984 @@
-2025-05-29 10:01:40.840 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 26308 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
-2025-05-29 10:01:40.852 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
-2025-05-29 10:01:57.425 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 17.676 seconds (process running for 19.081)
-2025-05-29 10:19:34.453 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 26308 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
-2025-05-29 10:19:34.454 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
-2025-05-29 10:19:42.404 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 11304 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
-2025-05-29 10:19:42.406 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
-2025-05-29 10:19:51.656 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 10.081 seconds (process running for 11.104)
-2025-05-29 10:53:03.029 [Test worker] INFO  c.p.p.ProjektRestControllerIntegrationTest.logStarting(53) - Starting ProjektRestControllerIntegrationTest using Java 23.0.2 with PID 20912 (started by miche in C:\Users\miche\Downloads\project-rest-api)
-2025-05-29 10:53:03.033 [Test worker] INFO  c.p.p.ProjektRestControllerIntegrationTest.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
-2025-05-29 10:53:15.038 [Test worker] INFO  c.p.p.ProjektRestControllerIntegrationTest.logStarted(59) - Started ProjektRestControllerIntegrationTest in 12.737 seconds (process running for 14.943)
+2025-06-12 10:13:03.365 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 15336 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:13:03.371 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:15:38.853 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 22552 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:15:38.856 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:15:55.740 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 16020 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:15:55.742 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:17:54.765 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 7480 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:17:54.766 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:19:45.142 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 2392 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:19:45.144 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:20:10.158 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 22676 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:20:10.160 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:21:45.718 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 13364 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:21:45.719 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:22:01.254 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 19516 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:22:01.256 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:22:34.395 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 2988 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:22:34.398 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:23:18.249 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 2156 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:23:18.251 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:24:21.020 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 2780 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:24:21.022 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:25:36.679 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 23380 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:25:36.680 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:26:15.280 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 21680 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:26:15.281 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:27:46.664 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 3864 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:27:46.666 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:28:46.630 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 17760 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:28:46.632 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:28:55.959 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 10.111 seconds (process running for 11.087)
+2025-06-12 10:29:37.635 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 11848 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:29:37.636 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:29:45.179 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 8.286 seconds (process running for 9.246)
+2025-06-12 10:31:12.740 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:31:22.616 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:32:00.817 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 22516 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:32:00.819 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:32:09.333 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.285 seconds (process running for 10.258)
+2025-06-12 10:32:09.455 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:32:13.332 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:32:59.713 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:34:58.464 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 10656 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:34:58.466 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:35:06.538 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 8.88 seconds (process running for 9.869)
+2025-06-12 10:35:11.121 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 3540 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:35:11.122 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:35:25.239 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 14.858 seconds (process running for 15.795)
+2025-06-12 10:35:30.401 [http-nio-8080-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:36:02.148 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 19304 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:36:02.149 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:36:10.903 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.559 seconds (process running for 10.517)
+2025-06-12 10:36:18.400 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:36:20.832 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:37:58.524 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 22140 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:37:58.526 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:38:06.987 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.191 seconds (process running for 10.261)
+2025-06-12 10:38:11.797 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:39:16.224 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 20048 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:39:16.226 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:39:24.462 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.013 seconds (process running for 9.991)
+2025-06-12 10:41:19.219 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 19356 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:41:19.221 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:41:29.094 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 10.705 seconds (process running for 11.766)
+2025-06-12 10:41:30.534 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:41:32.077 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:42:23.055 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:43:13.068 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 2060 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:43:13.070 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:43:21.328 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.01 seconds (process running for 10.011)
+2025-06-12 10:43:37.152 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 12736 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:43:37.154 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:43:45.358 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 8.972 seconds (process running for 9.913)
+2025-06-12 10:45:39.877 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 14832 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:45:39.879 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:45:48.386 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.286 seconds (process running for 10.256)
+2025-06-12 10:46:09.111 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:46:46.110 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 14832 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:46:46.111 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:46:49.502 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 3.444 seconds (process running for 71.372)
+2025-06-12 10:46:49.707 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:46:58.523 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 23164 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:46:58.524 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:47:07.206 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.46 seconds (process running for 10.47)
+2025-06-12 10:47:12.829 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:47:52.344 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 23164 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:47:52.344 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:47:55.855 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 3.56 seconds (process running for 59.119)
+2025-06-12 10:47:56.669 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:48:00.381 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:48:10.871 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 8748 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:48:10.873 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:48:20.584 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 10.569 seconds (process running for 11.608)
+2025-06-12 10:48:20.853 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:48:29.876 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:49:55.124 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:50:45.393 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:51:43.542 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 6272 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:51:43.543 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:51:51.972 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.238 seconds (process running for 10.284)
+2025-06-12 10:53:42.303 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:53:56.895 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:55:55.144 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:56:10.946 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.setProjekt(67) - REQUEST -> POST /api/projekty
+2025-06-12 10:56:34.205 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:56:35.783 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:58:04.204 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.setProjekt(67) - REQUEST -> POST /api/projekty
+2025-06-12 10:58:54.735 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:59:14.386 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:59:16.104 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 6272 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:59:16.106 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:59:19.251 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 3.212 seconds (process running for 457.562)
+2025-06-12 10:59:21.234 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 6272 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 10:59:21.235 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 10:59:23.494 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 2.311 seconds (process running for 461.807)
+2025-06-12 10:59:25.850 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:59:27.111 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 10:59:28.111 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:00:39.684 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 21916 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 11:00:39.686 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 11:00:47.825 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 8.929 seconds (process running for 9.897)
+2025-06-12 11:00:56.922 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:01:10.249 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:03:46.344 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 9628 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 11:03:46.345 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 11:03:54.820 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.331 seconds (process running for 10.465)
+2025-06-12 11:03:56.646 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:03:58.336 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:04:43.684 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 16516 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 11:04:43.686 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 11:04:53.444 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 10.587 seconds (process running for 11.626)
+2025-06-12 11:04:55.077 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:05:02.003 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:06:21.818 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 22760 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 11:06:21.820 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 11:06:31.459 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 10.442 seconds (process running for 11.665)
+2025-06-12 11:07:55.476 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 17928 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 11:07:55.477 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 11:08:04.621 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 9.962 seconds (process running for 10.956)
+2025-06-12 11:08:08.606 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:08:11.059 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 11:08:12.228 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 16:59:41.763 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 13564 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 16:59:41.765 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 16:59:49.423 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 8.499 seconds (process running for 9.426)
+2025-06-12 17:01:04.307 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:01:12.885 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.setProjekt(67) - REQUEST -> POST /api/projekty
+2025-06-12 17:12:12.566 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 14136 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:12:12.568 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:12:18.588 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 6.469 seconds (process running for 7.034)
+2025-06-12 17:12:25.940 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:13:42.101 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 14468 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:13:42.102 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:13:47.852 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 6.304 seconds (process running for 6.885)
+2025-06-12 17:13:52.652 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:15:26.470 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 16832 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:15:26.471 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:15:32.089 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 6.085 seconds (process running for 6.728)
+2025-06-12 17:15:33.336 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:15:46.239 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:16:22.659 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 9368 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:16:22.660 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:16:27.988 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 5.779 seconds (process running for 6.331)
+2025-06-12 17:16:37.037 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:16:48.424 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.setProjekt(67) - REQUEST -> POST /api/projekty
+2025-06-12 17:19:06.744 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 3156 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:19:06.747 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:19:12.392 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 6.186 seconds (process running for 6.759)
+2025-06-12 17:19:19.587 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:20.571 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 18772 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:30:20.572 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:30:26.228 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 6.074 seconds (process running for 6.666)
+2025-06-12 17:30:29.783 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.833 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.838 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.841 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.843 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.845 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.849 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.851 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.855 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.858 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.861 [http-nio-8081-exec-11] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.866 [http-nio-8081-exec-12] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.868 [http-nio-8081-exec-13] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.872 [http-nio-8081-exec-14] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.875 [http-nio-8081-exec-15] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.878 [http-nio-8081-exec-16] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.883 [http-nio-8081-exec-17] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.887 [http-nio-8081-exec-18] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.890 [http-nio-8081-exec-19] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.891 [http-nio-8081-exec-20] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.894 [http-nio-8081-exec-21] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.896 [http-nio-8081-exec-22] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.901 [http-nio-8081-exec-23] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.903 [http-nio-8081-exec-24] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.906 [http-nio-8081-exec-25] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.909 [http-nio-8081-exec-26] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.912 [http-nio-8081-exec-27] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.915 [http-nio-8081-exec-28] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.918 [http-nio-8081-exec-29] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.921 [http-nio-8081-exec-30] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.924 [http-nio-8081-exec-31] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.927 [http-nio-8081-exec-32] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.931 [http-nio-8081-exec-33] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.934 [http-nio-8081-exec-34] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.937 [http-nio-8081-exec-35] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.940 [http-nio-8081-exec-36] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.943 [http-nio-8081-exec-37] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.946 [http-nio-8081-exec-38] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.948 [http-nio-8081-exec-39] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.950 [http-nio-8081-exec-40] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.953 [http-nio-8081-exec-41] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.956 [http-nio-8081-exec-42] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.960 [http-nio-8081-exec-43] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.963 [http-nio-8081-exec-44] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.966 [http-nio-8081-exec-45] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.968 [http-nio-8081-exec-46] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.971 [http-nio-8081-exec-47] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.972 [http-nio-8081-exec-48] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.976 [http-nio-8081-exec-49] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.978 [http-nio-8081-exec-50] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.981 [http-nio-8081-exec-51] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.984 [http-nio-8081-exec-52] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.987 [http-nio-8081-exec-53] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.991 [http-nio-8081-exec-54] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.994 [http-nio-8081-exec-55] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:29.997 [http-nio-8081-exec-56] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.000 [http-nio-8081-exec-57] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.004 [http-nio-8081-exec-58] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.008 [http-nio-8081-exec-59] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.011 [http-nio-8081-exec-60] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.015 [http-nio-8081-exec-61] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.018 [http-nio-8081-exec-62] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.023 [http-nio-8081-exec-63] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.027 [http-nio-8081-exec-64] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.031 [http-nio-8081-exec-65] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.034 [http-nio-8081-exec-66] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.038 [http-nio-8081-exec-67] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.041 [http-nio-8081-exec-68] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.045 [http-nio-8081-exec-69] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.049 [http-nio-8081-exec-70] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.053 [http-nio-8081-exec-71] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.057 [http-nio-8081-exec-72] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.061 [http-nio-8081-exec-73] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.064 [http-nio-8081-exec-74] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.067 [http-nio-8081-exec-75] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.071 [http-nio-8081-exec-76] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.075 [http-nio-8081-exec-77] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.078 [http-nio-8081-exec-78] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.081 [http-nio-8081-exec-79] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.084 [http-nio-8081-exec-80] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.088 [http-nio-8081-exec-81] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.092 [http-nio-8081-exec-82] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.095 [http-nio-8081-exec-83] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.098 [http-nio-8081-exec-84] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.102 [http-nio-8081-exec-85] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.106 [http-nio-8081-exec-86] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.110 [http-nio-8081-exec-87] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.112 [http-nio-8081-exec-88] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.115 [http-nio-8081-exec-89] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.117 [http-nio-8081-exec-90] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.120 [http-nio-8081-exec-91] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.121 [http-nio-8081-exec-92] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.124 [http-nio-8081-exec-93] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.129 [http-nio-8081-exec-94] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.132 [http-nio-8081-exec-95] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.134 [http-nio-8081-exec-96] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.137 [http-nio-8081-exec-97] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.140 [http-nio-8081-exec-98] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.143 [http-nio-8081-exec-99] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.146 [http-nio-8081-exec-100] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.149 [http-nio-8081-exec-101] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.152 [http-nio-8081-exec-102] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.154 [http-nio-8081-exec-103] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.156 [http-nio-8081-exec-104] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.168 [http-nio-8081-exec-105] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.172 [http-nio-8081-exec-106] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.174 [http-nio-8081-exec-107] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.177 [http-nio-8081-exec-108] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.180 [http-nio-8081-exec-109] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.183 [http-nio-8081-exec-110] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.186 [http-nio-8081-exec-111] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.190 [http-nio-8081-exec-112] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.193 [http-nio-8081-exec-113] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.196 [http-nio-8081-exec-114] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.200 [http-nio-8081-exec-115] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.203 [http-nio-8081-exec-116] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.206 [http-nio-8081-exec-117] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.210 [http-nio-8081-exec-118] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.214 [http-nio-8081-exec-119] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.217 [http-nio-8081-exec-120] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.220 [http-nio-8081-exec-121] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.224 [http-nio-8081-exec-122] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.228 [http-nio-8081-exec-123] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.232 [http-nio-8081-exec-124] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.237 [http-nio-8081-exec-125] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.241 [http-nio-8081-exec-126] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.245 [http-nio-8081-exec-127] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.249 [http-nio-8081-exec-128] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.254 [http-nio-8081-exec-129] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.258 [http-nio-8081-exec-130] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.261 [http-nio-8081-exec-131] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.265 [http-nio-8081-exec-132] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.268 [http-nio-8081-exec-133] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.271 [http-nio-8081-exec-134] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.274 [http-nio-8081-exec-135] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.277 [http-nio-8081-exec-136] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.281 [http-nio-8081-exec-137] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.283 [http-nio-8081-exec-138] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.286 [http-nio-8081-exec-139] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.288 [http-nio-8081-exec-140] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.292 [http-nio-8081-exec-141] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.295 [http-nio-8081-exec-142] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.298 [http-nio-8081-exec-143] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.301 [http-nio-8081-exec-144] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.305 [http-nio-8081-exec-145] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.308 [http-nio-8081-exec-146] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.310 [http-nio-8081-exec-147] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.313 [http-nio-8081-exec-148] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.316 [http-nio-8081-exec-149] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.318 [http-nio-8081-exec-150] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.321 [http-nio-8081-exec-151] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.323 [http-nio-8081-exec-152] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.325 [http-nio-8081-exec-153] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.327 [http-nio-8081-exec-154] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.329 [http-nio-8081-exec-155] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.331 [http-nio-8081-exec-156] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.334 [http-nio-8081-exec-157] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.337 [http-nio-8081-exec-158] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.339 [http-nio-8081-exec-159] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.341 [http-nio-8081-exec-160] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.343 [http-nio-8081-exec-161] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.345 [http-nio-8081-exec-162] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.347 [http-nio-8081-exec-163] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.348 [http-nio-8081-exec-164] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.351 [http-nio-8081-exec-165] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.353 [http-nio-8081-exec-166] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.355 [http-nio-8081-exec-167] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.357 [http-nio-8081-exec-168] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.358 [http-nio-8081-exec-169] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.361 [http-nio-8081-exec-170] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.364 [http-nio-8081-exec-171] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.366 [http-nio-8081-exec-172] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.369 [http-nio-8081-exec-173] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.371 [http-nio-8081-exec-174] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.374 [http-nio-8081-exec-175] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.376 [http-nio-8081-exec-176] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.378 [http-nio-8081-exec-177] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.380 [http-nio-8081-exec-178] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.383 [http-nio-8081-exec-179] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.385 [http-nio-8081-exec-180] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.387 [http-nio-8081-exec-181] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.390 [http-nio-8081-exec-182] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.391 [http-nio-8081-exec-183] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.394 [http-nio-8081-exec-184] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.396 [http-nio-8081-exec-185] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.398 [http-nio-8081-exec-186] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.402 [http-nio-8081-exec-187] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.405 [http-nio-8081-exec-188] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.408 [http-nio-8081-exec-189] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.411 [http-nio-8081-exec-190] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.415 [http-nio-8081-exec-191] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.419 [http-nio-8081-exec-192] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.424 [http-nio-8081-exec-193] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.427 [http-nio-8081-exec-194] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.431 [http-nio-8081-exec-195] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.435 [http-nio-8081-exec-196] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.438 [http-nio-8081-exec-197] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.443 [http-nio-8081-exec-198] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.447 [http-nio-8081-exec-199] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:30:30.450 [http-nio-8081-exec-200] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:23.821 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 8048 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:31:23.822 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:31:29.018 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 5.629 seconds (process running for 6.185)
+2025-06-12 17:31:55.761 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 8048 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:31:55.762 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:31:57.369 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 1.638 seconds (process running for 34.536)
+2025-06-12 17:31:57.510 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.555 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.561 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.569 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.578 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.582 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.588 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.594 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.600 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.607 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.615 [http-nio-8081-exec-11] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.620 [http-nio-8081-exec-12] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.625 [http-nio-8081-exec-13] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.631 [http-nio-8081-exec-14] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.634 [http-nio-8081-exec-15] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.638 [http-nio-8081-exec-16] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.642 [http-nio-8081-exec-17] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.646 [http-nio-8081-exec-18] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.651 [http-nio-8081-exec-19] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.654 [http-nio-8081-exec-20] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.664 [http-nio-8081-exec-21] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.673 [http-nio-8081-exec-22] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.678 [http-nio-8081-exec-23] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.687 [http-nio-8081-exec-24] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.690 [http-nio-8081-exec-25] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.699 [http-nio-8081-exec-26] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.703 [http-nio-8081-exec-27] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.706 [http-nio-8081-exec-28] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.708 [http-nio-8081-exec-29] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.726 [http-nio-8081-exec-30] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.734 [http-nio-8081-exec-31] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.772 [http-nio-8081-exec-32] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.776 [http-nio-8081-exec-33] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.780 [http-nio-8081-exec-34] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.783 [http-nio-8081-exec-35] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.787 [http-nio-8081-exec-36] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.790 [http-nio-8081-exec-37] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.795 [http-nio-8081-exec-38] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.799 [http-nio-8081-exec-39] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.803 [http-nio-8081-exec-40] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.807 [http-nio-8081-exec-41] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.811 [http-nio-8081-exec-42] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.814 [http-nio-8081-exec-43] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.819 [http-nio-8081-exec-44] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.823 [http-nio-8081-exec-45] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.826 [http-nio-8081-exec-46] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.829 [http-nio-8081-exec-47] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.833 [http-nio-8081-exec-48] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.836 [http-nio-8081-exec-49] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.840 [http-nio-8081-exec-50] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.843 [http-nio-8081-exec-51] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.845 [http-nio-8081-exec-52] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.849 [http-nio-8081-exec-53] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.852 [http-nio-8081-exec-54] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.856 [http-nio-8081-exec-55] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.859 [http-nio-8081-exec-56] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.862 [http-nio-8081-exec-57] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.865 [http-nio-8081-exec-58] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.868 [http-nio-8081-exec-59] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.871 [http-nio-8081-exec-60] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.873 [http-nio-8081-exec-61] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.876 [http-nio-8081-exec-62] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.879 [http-nio-8081-exec-63] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.882 [http-nio-8081-exec-64] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.885 [http-nio-8081-exec-65] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.887 [http-nio-8081-exec-66] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.888 [http-nio-8081-exec-67] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.891 [http-nio-8081-exec-68] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.892 [http-nio-8081-exec-69] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.894 [http-nio-8081-exec-70] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.896 [http-nio-8081-exec-71] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.897 [http-nio-8081-exec-72] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.900 [http-nio-8081-exec-73] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.903 [http-nio-8081-exec-74] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.905 [http-nio-8081-exec-75] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.907 [http-nio-8081-exec-76] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.910 [http-nio-8081-exec-77] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.912 [http-nio-8081-exec-78] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.915 [http-nio-8081-exec-79] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.918 [http-nio-8081-exec-80] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.920 [http-nio-8081-exec-81] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.922 [http-nio-8081-exec-82] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.925 [http-nio-8081-exec-83] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.926 [http-nio-8081-exec-84] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.930 [http-nio-8081-exec-85] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.933 [http-nio-8081-exec-86] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.936 [http-nio-8081-exec-87] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.938 [http-nio-8081-exec-88] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.941 [http-nio-8081-exec-89] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.942 [http-nio-8081-exec-90] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.945 [http-nio-8081-exec-91] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.948 [http-nio-8081-exec-92] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.951 [http-nio-8081-exec-93] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.952 [http-nio-8081-exec-94] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.953 [http-nio-8081-exec-95] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.955 [http-nio-8081-exec-96] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.957 [http-nio-8081-exec-97] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.958 [http-nio-8081-exec-98] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.962 [http-nio-8081-exec-99] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.964 [http-nio-8081-exec-100] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.965 [http-nio-8081-exec-101] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.967 [http-nio-8081-exec-102] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.969 [http-nio-8081-exec-103] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.972 [http-nio-8081-exec-104] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.974 [http-nio-8081-exec-105] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.977 [http-nio-8081-exec-106] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.980 [http-nio-8081-exec-107] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.982 [http-nio-8081-exec-108] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.985 [http-nio-8081-exec-109] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.988 [http-nio-8081-exec-110] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.991 [http-nio-8081-exec-111] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.994 [http-nio-8081-exec-112] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.996 [http-nio-8081-exec-113] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:57.998 [http-nio-8081-exec-114] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.000 [http-nio-8081-exec-115] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.002 [http-nio-8081-exec-116] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.004 [http-nio-8081-exec-117] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.007 [http-nio-8081-exec-118] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.010 [http-nio-8081-exec-119] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.012 [http-nio-8081-exec-120] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.015 [http-nio-8081-exec-121] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.018 [http-nio-8081-exec-122] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.020 [http-nio-8081-exec-123] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.023 [http-nio-8081-exec-124] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.026 [http-nio-8081-exec-125] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.030 [http-nio-8081-exec-126] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.033 [http-nio-8081-exec-127] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.044 [http-nio-8081-exec-128] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.050 [http-nio-8081-exec-129] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.054 [http-nio-8081-exec-130] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.056 [http-nio-8081-exec-131] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.063 [http-nio-8081-exec-132] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.068 [http-nio-8081-exec-133] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.070 [http-nio-8081-exec-134] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.073 [http-nio-8081-exec-135] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.076 [http-nio-8081-exec-136] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.079 [http-nio-8081-exec-137] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.081 [http-nio-8081-exec-138] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.084 [http-nio-8081-exec-139] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.085 [http-nio-8081-exec-140] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.088 [http-nio-8081-exec-141] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.092 [http-nio-8081-exec-142] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.095 [http-nio-8081-exec-143] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.097 [http-nio-8081-exec-144] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.100 [http-nio-8081-exec-145] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.102 [http-nio-8081-exec-146] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.104 [http-nio-8081-exec-147] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.107 [http-nio-8081-exec-148] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.109 [http-nio-8081-exec-149] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.112 [http-nio-8081-exec-150] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.115 [http-nio-8081-exec-151] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.118 [http-nio-8081-exec-152] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.121 [http-nio-8081-exec-153] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.123 [http-nio-8081-exec-154] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.126 [http-nio-8081-exec-155] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.128 [http-nio-8081-exec-156] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.131 [http-nio-8081-exec-157] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.134 [http-nio-8081-exec-158] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.136 [http-nio-8081-exec-159] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.139 [http-nio-8081-exec-160] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.141 [http-nio-8081-exec-161] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.143 [http-nio-8081-exec-162] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.146 [http-nio-8081-exec-163] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.148 [http-nio-8081-exec-164] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.151 [http-nio-8081-exec-165] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.154 [http-nio-8081-exec-166] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.156 [http-nio-8081-exec-167] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.158 [http-nio-8081-exec-168] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.161 [http-nio-8081-exec-169] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.163 [http-nio-8081-exec-170] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.167 [http-nio-8081-exec-171] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.170 [http-nio-8081-exec-172] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.172 [http-nio-8081-exec-173] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.174 [http-nio-8081-exec-174] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.177 [http-nio-8081-exec-175] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.178 [http-nio-8081-exec-176] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.182 [http-nio-8081-exec-177] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.185 [http-nio-8081-exec-178] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.187 [http-nio-8081-exec-179] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.190 [http-nio-8081-exec-180] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.193 [http-nio-8081-exec-181] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.196 [http-nio-8081-exec-182] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.199 [http-nio-8081-exec-183] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.202 [http-nio-8081-exec-184] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.206 [http-nio-8081-exec-185] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.208 [http-nio-8081-exec-186] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.211 [http-nio-8081-exec-187] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.213 [http-nio-8081-exec-188] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.216 [http-nio-8081-exec-189] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.218 [http-nio-8081-exec-190] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.222 [http-nio-8081-exec-191] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.225 [http-nio-8081-exec-192] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.227 [http-nio-8081-exec-193] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.229 [http-nio-8081-exec-194] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.233 [http-nio-8081-exec-195] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.235 [http-nio-8081-exec-196] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.238 [http-nio-8081-exec-197] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.241 [http-nio-8081-exec-198] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.243 [http-nio-8081-exec-199] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:31:58.245 [http-nio-8081-exec-200] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:03.097 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 5712 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:34:03.098 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:34:07.960 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 5.279 seconds (process running for 5.803)
+2025-06-12 17:34:17.377 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.429 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.433 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.436 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.438 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.442 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.445 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.449 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.452 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.455 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.458 [http-nio-8081-exec-11] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.462 [http-nio-8081-exec-12] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.466 [http-nio-8081-exec-13] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.469 [http-nio-8081-exec-14] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.473 [http-nio-8081-exec-15] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.476 [http-nio-8081-exec-16] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.480 [http-nio-8081-exec-17] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.483 [http-nio-8081-exec-18] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.487 [http-nio-8081-exec-19] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.490 [http-nio-8081-exec-20] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.494 [http-nio-8081-exec-21] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.498 [http-nio-8081-exec-22] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.501 [http-nio-8081-exec-23] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.506 [http-nio-8081-exec-24] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.509 [http-nio-8081-exec-25] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.512 [http-nio-8081-exec-26] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.515 [http-nio-8081-exec-27] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.519 [http-nio-8081-exec-28] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.522 [http-nio-8081-exec-29] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.526 [http-nio-8081-exec-30] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.530 [http-nio-8081-exec-31] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.534 [http-nio-8081-exec-32] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.538 [http-nio-8081-exec-33] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.541 [http-nio-8081-exec-34] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.544 [http-nio-8081-exec-35] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.547 [http-nio-8081-exec-36] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.551 [http-nio-8081-exec-37] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.554 [http-nio-8081-exec-38] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.558 [http-nio-8081-exec-39] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.561 [http-nio-8081-exec-40] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.564 [http-nio-8081-exec-41] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.567 [http-nio-8081-exec-42] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.571 [http-nio-8081-exec-43] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.573 [http-nio-8081-exec-44] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.577 [http-nio-8081-exec-45] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.580 [http-nio-8081-exec-46] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.583 [http-nio-8081-exec-47] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.586 [http-nio-8081-exec-48] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.591 [http-nio-8081-exec-49] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.594 [http-nio-8081-exec-50] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.599 [http-nio-8081-exec-51] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.602 [http-nio-8081-exec-52] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.606 [http-nio-8081-exec-53] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.611 [http-nio-8081-exec-54] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.614 [http-nio-8081-exec-55] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.618 [http-nio-8081-exec-56] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.621 [http-nio-8081-exec-57] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.625 [http-nio-8081-exec-58] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.629 [http-nio-8081-exec-59] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.633 [http-nio-8081-exec-60] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.637 [http-nio-8081-exec-61] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.641 [http-nio-8081-exec-62] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.644 [http-nio-8081-exec-63] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.647 [http-nio-8081-exec-64] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.651 [http-nio-8081-exec-65] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.655 [http-nio-8081-exec-66] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.658 [http-nio-8081-exec-67] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.662 [http-nio-8081-exec-68] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.666 [http-nio-8081-exec-69] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.669 [http-nio-8081-exec-70] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.672 [http-nio-8081-exec-71] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.675 [http-nio-8081-exec-72] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.679 [http-nio-8081-exec-73] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.681 [http-nio-8081-exec-74] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.684 [http-nio-8081-exec-75] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.687 [http-nio-8081-exec-76] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.690 [http-nio-8081-exec-77] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.693 [http-nio-8081-exec-78] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.697 [http-nio-8081-exec-79] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.700 [http-nio-8081-exec-80] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.703 [http-nio-8081-exec-81] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.706 [http-nio-8081-exec-82] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.710 [http-nio-8081-exec-83] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.714 [http-nio-8081-exec-84] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.717 [http-nio-8081-exec-85] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.720 [http-nio-8081-exec-86] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.723 [http-nio-8081-exec-87] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.727 [http-nio-8081-exec-88] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.730 [http-nio-8081-exec-89] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.733 [http-nio-8081-exec-90] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.735 [http-nio-8081-exec-91] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.739 [http-nio-8081-exec-92] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.741 [http-nio-8081-exec-93] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.743 [http-nio-8081-exec-94] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.746 [http-nio-8081-exec-95] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.748 [http-nio-8081-exec-96] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.750 [http-nio-8081-exec-97] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.752 [http-nio-8081-exec-98] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.755 [http-nio-8081-exec-99] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.758 [http-nio-8081-exec-100] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.762 [http-nio-8081-exec-101] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.765 [http-nio-8081-exec-102] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.767 [http-nio-8081-exec-103] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.770 [http-nio-8081-exec-104] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.773 [http-nio-8081-exec-105] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.775 [http-nio-8081-exec-106] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.778 [http-nio-8081-exec-107] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.780 [http-nio-8081-exec-108] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.784 [http-nio-8081-exec-109] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.787 [http-nio-8081-exec-110] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.790 [http-nio-8081-exec-111] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.793 [http-nio-8081-exec-112] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.796 [http-nio-8081-exec-113] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.799 [http-nio-8081-exec-114] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.802 [http-nio-8081-exec-115] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.805 [http-nio-8081-exec-116] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.808 [http-nio-8081-exec-117] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.811 [http-nio-8081-exec-118] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.815 [http-nio-8081-exec-119] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.818 [http-nio-8081-exec-120] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.822 [http-nio-8081-exec-121] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.825 [http-nio-8081-exec-122] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.830 [http-nio-8081-exec-123] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.833 [http-nio-8081-exec-124] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.837 [http-nio-8081-exec-125] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.841 [http-nio-8081-exec-126] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.844 [http-nio-8081-exec-127] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.849 [http-nio-8081-exec-128] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.854 [http-nio-8081-exec-129] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.857 [http-nio-8081-exec-130] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.860 [http-nio-8081-exec-131] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.863 [http-nio-8081-exec-132] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.866 [http-nio-8081-exec-133] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.869 [http-nio-8081-exec-134] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.871 [http-nio-8081-exec-135] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.874 [http-nio-8081-exec-136] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.878 [http-nio-8081-exec-137] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.881 [http-nio-8081-exec-138] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.884 [http-nio-8081-exec-139] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.898 [http-nio-8081-exec-140] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.901 [http-nio-8081-exec-141] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.903 [http-nio-8081-exec-142] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.905 [http-nio-8081-exec-143] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.907 [http-nio-8081-exec-144] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.910 [http-nio-8081-exec-145] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.912 [http-nio-8081-exec-146] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.914 [http-nio-8081-exec-147] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.917 [http-nio-8081-exec-148] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.918 [http-nio-8081-exec-149] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.920 [http-nio-8081-exec-150] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.921 [http-nio-8081-exec-151] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.923 [http-nio-8081-exec-152] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.925 [http-nio-8081-exec-153] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.927 [http-nio-8081-exec-154] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.930 [http-nio-8081-exec-155] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.931 [http-nio-8081-exec-156] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.933 [http-nio-8081-exec-157] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.935 [http-nio-8081-exec-158] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.936 [http-nio-8081-exec-159] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.938 [http-nio-8081-exec-160] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.939 [http-nio-8081-exec-161] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.941 [http-nio-8081-exec-162] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.943 [http-nio-8081-exec-163] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.945 [http-nio-8081-exec-164] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.949 [http-nio-8081-exec-165] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.950 [http-nio-8081-exec-166] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.952 [http-nio-8081-exec-167] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.954 [http-nio-8081-exec-168] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.957 [http-nio-8081-exec-169] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.958 [http-nio-8081-exec-170] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.959 [http-nio-8081-exec-171] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.962 [http-nio-8081-exec-172] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.965 [http-nio-8081-exec-173] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.966 [http-nio-8081-exec-174] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.968 [http-nio-8081-exec-175] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.969 [http-nio-8081-exec-176] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.973 [http-nio-8081-exec-177] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.976 [http-nio-8081-exec-178] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.978 [http-nio-8081-exec-179] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.980 [http-nio-8081-exec-180] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.982 [http-nio-8081-exec-181] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.986 [http-nio-8081-exec-182] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.989 [http-nio-8081-exec-183] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.992 [http-nio-8081-exec-184] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.994 [http-nio-8081-exec-185] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:17.997 [http-nio-8081-exec-186] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.001 [http-nio-8081-exec-187] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.003 [http-nio-8081-exec-188] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.006 [http-nio-8081-exec-189] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.009 [http-nio-8081-exec-190] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.012 [http-nio-8081-exec-191] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.015 [http-nio-8081-exec-192] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.020 [http-nio-8081-exec-193] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.023 [http-nio-8081-exec-194] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.026 [http-nio-8081-exec-195] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.030 [http-nio-8081-exec-196] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.033 [http-nio-8081-exec-197] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.037 [http-nio-8081-exec-198] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.040 [http-nio-8081-exec-199] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:34:18.043 [http-nio-8081-exec-200] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:00.397 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(53) - Starting ProjectRestApiApplication using Java 23.0.2 with PID 12352 (C:\Users\miche\Downloads\project-rest-api\build\classes\java\main started by miche in C:\Users\miche\Downloads\project-rest-api)
+2025-06-12 17:37:00.399 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(652) - No active profile set, falling back to 1 default profile: "default"
+2025-06-12 17:37:05.517 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(59) - Started ProjectRestApiApplication in 5.543 seconds (process running for 6.09)
+2025-06-12 17:37:13.124 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.167 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.171 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.174 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.177 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.180 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.182 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.185 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.187 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.191 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.193 [http-nio-8081-exec-11] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.196 [http-nio-8081-exec-12] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.199 [http-nio-8081-exec-13] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.202 [http-nio-8081-exec-14] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.204 [http-nio-8081-exec-15] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.208 [http-nio-8081-exec-16] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.211 [http-nio-8081-exec-17] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.214 [http-nio-8081-exec-18] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.218 [http-nio-8081-exec-19] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.221 [http-nio-8081-exec-20] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.225 [http-nio-8081-exec-21] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.228 [http-nio-8081-exec-22] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.231 [http-nio-8081-exec-23] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.234 [http-nio-8081-exec-24] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.237 [http-nio-8081-exec-25] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.240 [http-nio-8081-exec-26] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.242 [http-nio-8081-exec-27] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.245 [http-nio-8081-exec-28] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.248 [http-nio-8081-exec-29] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.252 [http-nio-8081-exec-30] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.255 [http-nio-8081-exec-31] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.258 [http-nio-8081-exec-32] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.261 [http-nio-8081-exec-33] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.263 [http-nio-8081-exec-34] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.266 [http-nio-8081-exec-35] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.268 [http-nio-8081-exec-36] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.272 [http-nio-8081-exec-37] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.275 [http-nio-8081-exec-38] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.277 [http-nio-8081-exec-39] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.280 [http-nio-8081-exec-40] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.282 [http-nio-8081-exec-41] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.284 [http-nio-8081-exec-42] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.286 [http-nio-8081-exec-43] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.288 [http-nio-8081-exec-44] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.291 [http-nio-8081-exec-45] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.295 [http-nio-8081-exec-46] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.299 [http-nio-8081-exec-47] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.302 [http-nio-8081-exec-48] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.306 [http-nio-8081-exec-49] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.310 [http-nio-8081-exec-50] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.313 [http-nio-8081-exec-51] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.317 [http-nio-8081-exec-52] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.321 [http-nio-8081-exec-53] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.325 [http-nio-8081-exec-54] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.328 [http-nio-8081-exec-55] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.332 [http-nio-8081-exec-56] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.335 [http-nio-8081-exec-57] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.338 [http-nio-8081-exec-58] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.342 [http-nio-8081-exec-59] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.345 [http-nio-8081-exec-60] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.348 [http-nio-8081-exec-61] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.353 [http-nio-8081-exec-62] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.356 [http-nio-8081-exec-63] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.360 [http-nio-8081-exec-64] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.366 [http-nio-8081-exec-65] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.370 [http-nio-8081-exec-66] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.372 [http-nio-8081-exec-67] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.375 [http-nio-8081-exec-68] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.378 [http-nio-8081-exec-69] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.382 [http-nio-8081-exec-70] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.385 [http-nio-8081-exec-71] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.388 [http-nio-8081-exec-72] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.391 [http-nio-8081-exec-73] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.396 [http-nio-8081-exec-74] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.398 [http-nio-8081-exec-75] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.400 [http-nio-8081-exec-76] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.403 [http-nio-8081-exec-77] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.406 [http-nio-8081-exec-78] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.410 [http-nio-8081-exec-79] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.412 [http-nio-8081-exec-80] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.414 [http-nio-8081-exec-81] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.416 [http-nio-8081-exec-82] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.418 [http-nio-8081-exec-83] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.420 [http-nio-8081-exec-84] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.422 [http-nio-8081-exec-85] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.425 [http-nio-8081-exec-86] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.429 [http-nio-8081-exec-87] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.432 [http-nio-8081-exec-88] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.435 [http-nio-8081-exec-89] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.437 [http-nio-8081-exec-90] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.438 [http-nio-8081-exec-91] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.441 [http-nio-8081-exec-92] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.442 [http-nio-8081-exec-93] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.444 [http-nio-8081-exec-94] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.445 [http-nio-8081-exec-95] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.448 [http-nio-8081-exec-96] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.451 [http-nio-8081-exec-97] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.453 [http-nio-8081-exec-98] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.455 [http-nio-8081-exec-99] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.457 [http-nio-8081-exec-100] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.459 [http-nio-8081-exec-101] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.461 [http-nio-8081-exec-102] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.463 [http-nio-8081-exec-103] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.467 [http-nio-8081-exec-104] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.469 [http-nio-8081-exec-105] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.471 [http-nio-8081-exec-106] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.472 [http-nio-8081-exec-107] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.474 [http-nio-8081-exec-108] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.476 [http-nio-8081-exec-109] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.478 [http-nio-8081-exec-110] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.480 [http-nio-8081-exec-111] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.482 [http-nio-8081-exec-112] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.484 [http-nio-8081-exec-113] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.485 [http-nio-8081-exec-114] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.487 [http-nio-8081-exec-115] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.488 [http-nio-8081-exec-116] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.491 [http-nio-8081-exec-117] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.493 [http-nio-8081-exec-118] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.494 [http-nio-8081-exec-119] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.497 [http-nio-8081-exec-120] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.500 [http-nio-8081-exec-121] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.503 [http-nio-8081-exec-122] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.506 [http-nio-8081-exec-123] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.510 [http-nio-8081-exec-124] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.513 [http-nio-8081-exec-125] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.517 [http-nio-8081-exec-126] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.520 [http-nio-8081-exec-127] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.534 [http-nio-8081-exec-128] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.543 [http-nio-8081-exec-129] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.548 [http-nio-8081-exec-130] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.551 [http-nio-8081-exec-131] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.554 [http-nio-8081-exec-132] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.564 [http-nio-8081-exec-133] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.567 [http-nio-8081-exec-134] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.570 [http-nio-8081-exec-135] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.574 [http-nio-8081-exec-136] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.577 [http-nio-8081-exec-137] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.580 [http-nio-8081-exec-138] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.583 [http-nio-8081-exec-139] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.586 [http-nio-8081-exec-140] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.588 [http-nio-8081-exec-141] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.591 [http-nio-8081-exec-142] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.594 [http-nio-8081-exec-143] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.596 [http-nio-8081-exec-144] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.598 [http-nio-8081-exec-145] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.601 [http-nio-8081-exec-146] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.604 [http-nio-8081-exec-147] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.607 [http-nio-8081-exec-148] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.610 [http-nio-8081-exec-149] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.613 [http-nio-8081-exec-150] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.616 [http-nio-8081-exec-151] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.618 [http-nio-8081-exec-152] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.620 [http-nio-8081-exec-153] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.621 [http-nio-8081-exec-154] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.624 [http-nio-8081-exec-155] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.626 [http-nio-8081-exec-156] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.628 [http-nio-8081-exec-157] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.630 [http-nio-8081-exec-158] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.632 [http-nio-8081-exec-159] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.633 [http-nio-8081-exec-160] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.636 [http-nio-8081-exec-161] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.638 [http-nio-8081-exec-162] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.641 [http-nio-8081-exec-163] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.644 [http-nio-8081-exec-164] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.645 [http-nio-8081-exec-165] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.647 [http-nio-8081-exec-166] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.649 [http-nio-8081-exec-167] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.650 [http-nio-8081-exec-168] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.651 [http-nio-8081-exec-169] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.653 [http-nio-8081-exec-170] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.655 [http-nio-8081-exec-171] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.657 [http-nio-8081-exec-172] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.658 [http-nio-8081-exec-173] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.660 [http-nio-8081-exec-174] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.662 [http-nio-8081-exec-175] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.664 [http-nio-8081-exec-176] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.665 [http-nio-8081-exec-177] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.667 [http-nio-8081-exec-178] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.668 [http-nio-8081-exec-179] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.670 [http-nio-8081-exec-180] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.672 [http-nio-8081-exec-181] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.674 [http-nio-8081-exec-182] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.675 [http-nio-8081-exec-183] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.678 [http-nio-8081-exec-184] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.679 [http-nio-8081-exec-185] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.682 [http-nio-8081-exec-186] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.683 [http-nio-8081-exec-187] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.685 [http-nio-8081-exec-188] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.686 [http-nio-8081-exec-189] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.688 [http-nio-8081-exec-190] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.689 [http-nio-8081-exec-191] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.691 [http-nio-8081-exec-192] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.695 [http-nio-8081-exec-193] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.697 [http-nio-8081-exec-194] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.701 [http-nio-8081-exec-195] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.703 [http-nio-8081-exec-196] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.706 [http-nio-8081-exec-197] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.709 [http-nio-8081-exec-198] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.711 [http-nio-8081-exec-199] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
+2025-06-12 17:37:13.715 [http-nio-8081-exec-200] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET http://localhost:8081/api/projekty?page=0&size=20&sort=
