@@ -1,9 +1,5 @@
 package com.project.model;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.ManyToMany;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -15,7 +11,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+import jakarta.persistence.Column;
 @Data
 @Builder
 @AllArgsConstructor
@@ -25,8 +21,9 @@ import lombok.NoArgsConstructor;
 public class Student {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer studentId;
+    @GeneratedValue
+    @Column(name = "student_id")
+    private Integer id; // zmienione z studentId
 
     @NotBlank(message = "Pole imię nie może być puste!")
     @Size(min = 2, max = 50, message = "Imię musi zawierać od {min} do {max} znaków!")

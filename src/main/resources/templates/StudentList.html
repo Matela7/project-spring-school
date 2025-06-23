@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista studentów</title>
+  <link rel="stylesheet" th:href="@{/style.css}" />
+</head>
+<body>
+<div class="container">
+  <h1>Lista studentów</h1>
+
+  <div class="actions">
+    <a th:href="@{/studenci/dodaj}" class="btn add-btn">Dodaj nowego studenta</a>
+  </div>
+
+  <table>
+    <thead>
+    <tr>
+      <th>Imię</th>
+      <th>Nazwisko</th>
+      <th>Nr indeksu</th>
+      <th>Email</th>
+      <th>Typ studiów</th>
+      <th>Akcje</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="student : ${studenci}">
+      <td th:text="${student.imie}"></td>
+      <td th:text="${student.nazwisko}"></td>
+      <td th:text="${student.nrIndeksu}"></td>
+      <td th:text="${student.email}"></td>
+      <td th:text="${student.stacjonarny ? 'Stacjonarne' : 'Niestacjonarne'}"></td>
+      <td class="actions">
+        <a th:href="@{/studenci/edytuj/{id}(id=${student.id})}" class="btn edit-btn">Edytuj</a>
+        <a th:href="@{/studenci/usun/{id}(id=${student.id})}" class="btn delete-btn"
+           onclick="return confirm('Czy na pewno chcesz usunąć tego studenta?')">Usuń</a>
+      </td>
+    </tr>
+    <tr th:if="${#lists.isEmpty(studenci)}">
+      <td colspan="6">Brak studentów w bazie danych</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
