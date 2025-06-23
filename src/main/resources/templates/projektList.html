@@ -26,7 +26,8 @@
             <a th:href="@{/projektEdit(projektId=${p.projektId})}">Edytuj</a>
             <form th:action="@{/projektEdit}" method="post" style="display:inline"
                   onsubmit="return confirm('Na pewno?')">
-                <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+                <!-- Usuń poniższą linię lub zastąp ją warunkowym wyświetlaniem -->
+                <!-- <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" /> -->
                 <input type="hidden" name="projektId" th:value="${p.projektId}" />
                 <button type="submit" name="delete" value="1">Usuń</button>
             </form>

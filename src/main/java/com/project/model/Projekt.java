@@ -29,7 +29,7 @@ import java.util.Set;
 public class Projekt {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private Integer projektId;
 
     @NotBlank(message = "Pole nazwa nie może być puste!")

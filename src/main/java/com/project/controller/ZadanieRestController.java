@@ -15,14 +15,14 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 @RequestMapping("/api")
 @Tag(name = "Zadanie")
 public class ZadanieRestController {
-    
+
     private ZadanieService zadanieService;
-    
+
     @Autowired
     public ZadanieRestController(ZadanieService zadanieService) {
         this.zadanieService = zadanieService;
     }
-    
+
     @GetMapping("/zadania")
     public Page<Zadanie> getZadania(Pageable pageable) {
         return zadanieService.getZadania(pageable);

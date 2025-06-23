@@ -10,6 +10,9 @@ import org.springframework.web.client.HttpStatusCodeException;
 import com.project.model.Projekt;
 import com.project.service.ProjektService;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.Collections;
+
 @Controller
 public class ProjektController {
     private ProjektService projektService;
@@ -18,9 +21,15 @@ public class ProjektController {
     public ProjektController(ProjektService projektService) {
         this.projektService = projektService;
     }
-    @GetMapping("/projektList") //np. http://localhost:8081/projektList?page=0&size=10&sort=dataCzasModyfikacji,desc
-    public String projektList(Model model, Pageable pageable) {
-        model.addAttribute("projekty", projektService.getProjekty(pageable).getContent());
+    @GetMapping("/projektList")
+    public String projektList(Model model, Pageable pageable, @RequestParam(name = "nazwa", required = false) String nazwa) {
+        if (Strings.isNotBlank(nazwa)) {
+            model.addAttribute("projekty", projektService.searchByNazwa(nazwa, pageable).getContent());
+        } else {
+            // Zamiast pustej listy, pobieraj projekty bezpośrednio z bazy danych
+            model.addAttribute("projekty", projektService.getProjekty());
+        }
+        model.addAttribute("nazwa", nazwa);
         return "projektList";
     }
     @GetMapping("/projektEdit")
